@@ -297,7 +297,7 @@ var positions = [
       '            <div class="close" onclick="closeOverlay()" title="닫기"></div>' +
       '        </div>' +
       '        <div class="body">' +
-      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyMzEwMDdfMTQz%2FMDAxNjk2NjY3OTk4MjAy._3oQ86l6ZrsTpHcuv2EndngvhqV_XtndOAvohSR0zBwg.beO_OHe5En4gh4u0J9_OUAizggqZdkyBuqHC0K21Ii0g.JPEG.wnsrl9791528%2F%25EC%2595%25A0%25EC%259B%2594%25ED%2595%25B4%25EC%2595%2588%25EB%258F%2584%25EB%25A1%259C_%25EC%25A1%25B1%25EC%259A%2595%25EC%25B9%25B4%25ED%258E%2598_1158_%25EC%25A1%25B1%25EC%259A%2595%25EC%25B9%25B4%25ED%258E%2598_(6).JPG%3Ftype%3Dw966); background-position: center; background-size: cover;">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F5a13a6fc8ce87d68db38c1f1ce24496b670f0969%3Foriginal); background-position: center; background-size: cover;">' +
       // '                <img src="">' +
       '           </div>' +
       '            <div class="desc">' +
