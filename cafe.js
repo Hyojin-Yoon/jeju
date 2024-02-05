@@ -297,7 +297,7 @@ var positions = [
       '            <div class="close" onclick="closeOverlay()" title="닫기"></div>' +
       '        </div>' +
       '        <div class="body">' +
-      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F5a13a6fc8ce87d68db38c1f1ce24496b670f0969%3Foriginal); background-position: center; background-size: cover;">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F0af39c769cff063183f73acadb0a7ee39c8b5082%3Foriginal); background-position: center; background-size: cover;">' +
       // '                <img src="">' +
       '           </div>' +
       '            <div class="desc">' +
