@@ -87,4 +87,18 @@ function displayMarker(data) {
     overlay.setMap(null);
     isOverlayOpen = false;
   };
+
+  // 지도 이동 종료 이벤트 핸들러
+    map.addListener('dragend', function () {
+      // 오버레이 맵에서 제거
+      overlay.setMap(null);
+      isOverlayOpen = false;
+    });
+  
+    // 줌인/줌아웃 시 오버레이를 닫기
+    map.addListener('zoom_changed', function () {
+      // 오버레이 맵에서 제거
+      overlay.setMap(null);
+      isOverlayOpen = false;
+    });
 }
