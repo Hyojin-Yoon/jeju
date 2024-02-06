@@ -10,6 +10,24 @@
         text-align: center;
     }
 
+    .categoryList ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .categoryList li {
+      display: inline-block;
+      margin-top: 10px;
+      margin-right: 30px;
+      cursor: pointer;
+      list-style-type: none;
+
+      font-style: italic;
+      font-weight: bold;
+    }
+
     #map {
         width: 1000px;
         height: 700px;
@@ -43,6 +61,30 @@
   <h3>마커를 클릭하세요 / 별점 100개, 4.0 이상 / 후기 미제공 제외</h3>
 
   <div id="map"></div>
+
+  <div class="categoryList">
+    <ul>
+      <li>
+        <label for="title2">
+          <input type="radio" id="title2" name="title" value="food" onclick="showContent('food')" />
+          맛집
+        </label>
+      </li>
+      <li>
+        <label for="title3">
+          <input type="radio" id="title3" name="title" value="cafe" onclick="showContent('cafe')" />
+          카페
+        </label>
+      </li>
+      <li>
+        <label for="title4">
+          <input type="radio" id="title4" name="title" value="actvity" onclick="showContent('activity')" />
+          관광지
+        </label>
+      </li>
+    </ul>
+  </div>
+  
   <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=99dc2eb4c823a46566216d9736015df3"></script>
 
   <script>
@@ -84,14 +126,38 @@
     activityImageOption = {offset: new kakao.maps.Point(27, 40)};
 
     var activityMarkerImage = new kakao.maps.MarkerImage(activityImageSrc, activityImageSize, activityImageOption);
-
-
   </script>
 
-  <script src="cafe.js"></script>
+  <script>
+    function showContent(category) {
+      // 전체보기인 경우 모든 JS 파일 동적으로 로드
+      if (category == 'food') {
+        loadScript('food.js');
+      } else if (category == 'cafe') {
+        loadScript('cafe.js');
+      } else if (category == 'activity') {
+        loadScript('activity.js');
+      }
+
+    }
+
+    function loadScript(scriptName) {
+      // 이미 로드된 스크립트인지 확인
+      var existingScript = document.querySelector('script[src="' + scriptName + '"]');
+
+      if (!existingScript) {
+        // 스크립트가 로드되지 않았다면 동적으로 추가
+        var script = document.createElement('script');
+        script.src = scriptName;
+        document.head.appendChild(script);
+      }
+    }
+  </script>
+
+<!--   <script src="cafe.js"></script>
   <script src="food.js"></script>
-  <script src="activity.js"></script>
-<!--   <script src="seongsan.js"></script> -->
+  <script src="activity.js"></script> -->
+
   <script src="home.js"></script>
 </body>
 </html>
