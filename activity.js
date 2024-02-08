@@ -15,7 +15,7 @@ var positions = [
       '                <div class="ellipsis">제주시 한경면 신창리 1322-1</div>' +
       '                <div class="jibun ellipsis">#산책로</div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/26239274" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26239274" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -40,7 +40,7 @@ var positions = [
       '                <div class="ellipsis">제주시 한림읍 한림로 300</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis">일반 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/10941032" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10941032" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -61,7 +61,7 @@ var positions = [
       '                <div class="ellipsis">제주시 한림읍 금능길 119-10</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/13723603" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/13723603" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -82,7 +82,7 @@ var positions = [
       '                <div class="ellipsis">제주시 한림읍 월령리 359-3</div>' +
       '                <div class="jibun ellipsis">#산책로</div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/26796675" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26796675" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -103,7 +103,7 @@ var positions = [
       '                <div class="ellipsis">제주시 한림읍 한림로 329-10</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/8159415" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8159415" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -128,7 +128,7 @@ var positions = [
       '                <div class="ellipsis">제주시 애월읍 봉성리 산 59-8</div>' +
       '                <div class="jibun ellipsis">#오름</div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/25274725" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/25274725" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -149,7 +149,7 @@ var positions = [
       '                <div class="ellipsis">제주시 애월읍 곽지리 1565</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/25022153" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/25022153" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -170,7 +170,7 @@ var positions = [
       '                <div class="ellipsis"> 제주시 애월읍 곽지리 1359</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/23705150" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/23705150" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -195,7 +195,7 @@ var positions = [
       '                <div class="ellipsis">제주시 수목원길 72</div>' +
       '                <div class="jibun ellipsis">#수목원</div>' +
       '                <div class="ellipsis">입장료 무료, 주차비 별도</div>' +
-      '                <div><a href="https://place.map.kakao.com/8641180" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8641180" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -216,7 +216,7 @@ var positions = [
       '                <div class="ellipsis">제주시 이호일동 1665-13</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/8552559" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8552559" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -237,7 +237,7 @@ var positions = [
       '                <div class="ellipsis">제주시 도두일동 1734</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/581695647" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/581695647" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -262,7 +262,7 @@ var positions = [
       '                <div class="ellipsis">제주시 조천읍 조함해안로 525</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/8148451" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8148451" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -283,7 +283,7 @@ var positions = [
       '                <div class="ellipsis">제주시 조천읍 교래리 산 137-1</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/26319779" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26319779" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -304,7 +304,7 @@ var positions = [
       '                <div class="ellipsis">제주시 조천읍 남조로 2023</div>' +
       '                <div class="jibun ellipsis">#테마파크</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00 입장료 무료</div>' +
-      '                <div><a href="https://place.map.kakao.com/13322621" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/13322621" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -325,7 +325,7 @@ var positions = [
       '                <div class="ellipsis">제주시 조천읍 선교로 267</div>' +
       '                <div class="jibun ellipsis">#테마파크</div>' +
       '                <div class="ellipsis">09:00 ~ 18:30 성인 13,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/12501734" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/12501734" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -350,7 +350,7 @@ var positions = [
       '                <div class="ellipsis">제주시 구좌읍 비자숲길 55</div>' +
       '                <div class="jibun ellipsis">#자연휴양림</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00 어른 3,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/7912085" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/7912085" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -371,7 +371,7 @@ var positions = [
       '                <div class="ellipsis">제주시 구좌읍 금백조로 916 2층</div>' +
       '                <div class="jibun ellipsis">#테마파크</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00 일반 18,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/852041742" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/852041742" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -392,7 +392,7 @@ var positions = [
       '                <div class="ellipsis">제주시 구좌읍 해맞이해안로 7-6</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/25023085" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/25023085" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -413,7 +413,7 @@ var positions = [
       '                <div class="ellipsis">제주시 구좌읍 월정리 33-3</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/17600274" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/17600274" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -434,7 +434,7 @@ var positions = [
       '                <div class="ellipsis">제주시 구좌읍 종달리 산 28</div>' +
       '                <div class="jibun ellipsis">#오름</div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/10626439" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10626439" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -455,7 +455,7 @@ var positions = [
       '                <div class="ellipsis">제주시 구좌읍 해녀박물관길 27</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/7964223" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -480,7 +480,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 성산읍 성산리 78</div>' +
       '                <div class="jibun ellipsis">#산봉우리</div>' +
       '                <div class="ellipsis">07:30 ~ 19:00 일반 5,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/25285071" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/25285071" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -501,7 +501,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 성산읍 섭지코지로 107</div>' +
       '                <div class="jibun ellipsis">#바위</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00 무료, 주차비 유료</div>' +
-      '                <div><a href="https://place.map.kakao.com/8413659" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8413659" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -522,7 +522,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 성산읍 고성리 224-33</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/13723499" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/13723499" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -532,7 +532,7 @@ var positions = [
     title: '<div class="wrap">' +
       '    <div class="info">' +
       '        <div class="title">' +
-      '            유채꽃밭' +
+      '            광치기 유채꽃밭' +
       '            <div class="close" onclick="closeOverlay()" title="닫기"></div>' +
       '        </div>' +
       '        <div class="body">' +
@@ -543,7 +543,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 성산읍 고성리 270</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/8040871" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8040871" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -564,7 +564,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 성산읍 섭지코지로 95</div>' +
       '                <div class="jibun ellipsis">#아쿠아리움</div>' +
       '                <div class="ellipsis">09:30 ~ 18:00 일반 42,400원</div>' +
-      '                <div><a href="" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/23150855" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -589,7 +589,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 표선면 표선리</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/8640631" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8640631" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -610,7 +610,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 표선면 성읍정의현로 30</div>' +
       '                <div class="jibun ellipsis">#민속촌 #유채꽃</div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/12501794" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/12501794" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -635,7 +635,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 남원읍 생기악로 53-38</div>' +
       '                <div class="jibun ellipsis">#동백꽃</div>' +
       '                <div class="ellipsis">09:00 ~ 17:30 일반 6,000원<br></div>' +
-      '                <div><a href="" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/317349030" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -656,7 +656,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 남원읍 위미리 927</div>' +
       '                <div class="jibun ellipsis">#동백꽃</div>' +
       '                <div class="ellipsis">09:30 ~ 17:00 성인 8,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/236028555" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/236028555" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -677,7 +677,7 @@ var positions = [
       '                <div class="ellipsis"></div>' +
       '                <div class="jibun ellipsis">#유채꽃 #매화</div>' +
       '                <div class="ellipsis">09:00 ~ 19:00 성인 13,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/27581976" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/27581976" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -702,7 +702,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 서홍동 2565</div>' +
       '                <div class="jibun ellipsis">#폭포</div>' +
       '                <div class="ellipsis">09:00 ~ 21:20 성인 2,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/8100102" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8100102" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -723,7 +723,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 쇠소깍로 104</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/7962003" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/7962003" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -744,7 +744,7 @@ var positions = [
       '                <div class="ellipsis">제주 서귀포시 칠십리로214번길 37</div>' +
       '                <div class="jibun ellipsis">#폭포</div>' +
       '                <div class="ellipsis">09:00 ~ 17:20 어른 2,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/10717401" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10717401" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -765,7 +765,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 산록남로 2271</div>' +
       '                <div class="jibun ellipsis">#숲</div>' +
       '                <div class="ellipsis">09:00 ~ 16:00 어른 1,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1766125269" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1766125269" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -789,7 +789,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 색달동 3384-4</div>' +
       '                <div class="jibun ellipsis">#유채꽃</div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/27548967" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/27548967" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -813,7 +813,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 안덕면 사계리 164-2</div>' +
       '                <div class="jibun ellipsis">#산</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00</div>' +
-      '                <div><a href="https://place.map.kakao.com/8386141" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8386141" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -834,7 +834,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 안덕면 신화역사로 15</div>' +
       '                <div class="jibun ellipsis">#녹차</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00</div>' +
-      '                <div><a href="https://place.map.kakao.com/11332661" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/11332661" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -859,7 +859,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 대정읍 에듀시티로 178</div>' +
       '                <div class="jibun ellipsis">#도립공원</div>' +
       '                <div class="ellipsis">09:00 ~ 15:00 일반 1,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/27254363" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/27254363" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -880,7 +880,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 대정읍 상모리 산 2</div>' +
       '                <div class="jibun ellipsis"><br></div>' +
       '                <div class="ellipsis"><br></div>' +
-      '                <div><a href="https://place.map.kakao.com/7956367" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/7956367" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -891,7 +891,7 @@ var positions = [
       '    <div class="info">' +
       '        <div class="title">' +
       '            노리매' +
-      '            <div class="close" onclick="closeOverlay()" title="닫기"></div>' +
+      '            <div class="close" onclick="closeOverlay()"></div>' +
       '        </div>' +
       '        <div class="body">' +
       '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fc0ZQqF%2FbtrY5mw5g1M%2F3Kjjbe9G0PFrO9DKxqJN0k%2Fimg.jpg); background-position: center; background-size: cover;">' +
@@ -901,7 +901,7 @@ var positions = [
       '                <div class="ellipsis">서귀포시 대정읍 중산간서로 2260-15</div>' +
       '                <div class="jibun ellipsis">#매화 #유채</div>' +
       '                <div class="ellipsis">09:00 ~ 18:00 성인 5,800원</div>' +
-      '                <div><a href="https://place.map.kakao.com/19265298" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/19265298" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -966,4 +966,46 @@ function displayMarker(data) {
       overlay.setMap(null);
       isOverlayOpen = false;
     });
+
+    // 저장
+  var saveBtn = document.querySelectorAll('.saveButton');
+
+  saveBtn.onclick = function() {
+    alert('"' + titleText + '" 저장되었습니다!');
+  };
+}
+
+//저장 리스트
+function savePlace() {
+  // 1. 모든 제목 요소를 가져옵니다.
+  const titles = document.querySelectorAll('.title');
+  // 2. 각 제목 요소에 대해 다음을 수행합니다.
+  for (const title of titles) {
+    // 2.1. 제목 키를 생성합니다.
+    const titleKey = Date.now();
+    // 2.2. 제목 텍스트를 가져옵니다.
+    const titleText = title.textContent;
+    // 2.3. 저장할 데이터를 객체로 변환합니다.
+    const data = {
+      // key: titleKey,
+      text: titleText
+    };
+    // 2.4. JSON 문자열로 변환합니다.
+    const jsonData = JSON.stringify(data);
+    // 2.5. setItem() 메서드를 사용하여 객체를 저장합니다.
+    localStorage.setItem(titleKey, jsonData);
+    // 2.6. blockquote 요소의 텍스트 콘텐츠를 설정합니다.
+    const newQuote = document.createElement('blockquote');
+    newQuote.textContent = titleText;
+    document.getElementById('quote').appendChild(newQuote);
+  }
+  // 3. (선택 사항) 저장 성공 메시지를 표시합니다.
+  // alert('저장되었습니다!');
+}
+
+// 저장리스트 삭제
+function deleteDiv() {
+  var deletebtn = document.getElementById('quote');
+  deletebtn.innerHTML = ' ';
+  localStorage.clear();
 }
