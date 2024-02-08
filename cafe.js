@@ -18,7 +18,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 19:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 6.5, 호지현미라떼 7.5</div>' +
-      '                <div><a href="https://place.map.kakao.com/1915903142" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1915903142" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -40,7 +40,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 19:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페 #갤러리카페</div>' +
       '                <div class="ellipsis">아메리카노 6,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1313144249" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1313144249" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -62,7 +62,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 18:00</div>' +
       '                <div class="jibun ellipsis">#로스팅전문 #핸드드립전문</div>' +
       '                <div class="ellipsis">아메리카노 4,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/2036344906" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2036344906" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -84,7 +84,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 18:30</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페 #브런치카페</div>' +
       '                <div class="ellipsis">아메리카노 5,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/165124400" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/165124400" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -106,7 +106,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 19:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">#녹차카페</div>' +
       '                <div class="ellipsis">아메리카노 5.5, 말차라떼 6.5</div>' +
-      '                <div><a href="https://place.map.kakao.com/1990235814" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1990235814" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -128,7 +128,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 18:00 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">#방앗간카페</div>' +
       '                <div class="ellipsis">아메리카노 5.0, 보리개역 5.5</div>' +
-      '                <div><a href="https://place.map.kakao.com/688685012" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/688685012" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -150,7 +150,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 17:00 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">#타르트</div>' +
       '                <div class="ellipsis">타르트 3.8</div>' +
-      '                <div><a href="https://place.map.kakao.com/582294685" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/582294685" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -174,7 +174,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">핸드드립 7.0</div>' +
-      '                <div><a href="https://place.map.kakao.com/555396252" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/555396252" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -196,7 +196,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 19:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 5.5</div>' +
-      '                <div><a href="https://place.map.kakao.com/334047840" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/334047840" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -217,7 +217,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 18:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">#애견동반카페</div>' +
       '                <div class="ellipsis">아메리카노 5.0</div>' +
-      '                <div><a href="https://place.map.kakao.com/986232032" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/986232032" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -241,7 +241,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 17:30 / 일,월 휴무</div>' +
       '                <div class="jibun ellipsis">#핸드드립전문점</div>' +
       '                <div class="ellipsis">재레미 블랜드 6,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/1170785054" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1170785054" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -262,7 +262,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 아침부터 자정까지</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 5.0</div>' +
-      '                <div><a href="https://place.map.kakao.com/823443118" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/823443118" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -283,7 +283,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페 #식물카페</div>' +
       '                <div class="ellipsis">아메리카노 7.0</div>' +
-      '                <div><a href="https://place.map.kakao.com/1525547515" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1525547515" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -304,7 +304,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 19:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페 #족욕카페</div>' +
       '                <div class="ellipsis">족욕 + 아메리카노 1.0</div>' +
-      '                <div><a href="https://place.map.kakao.com/1787101427" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1787101427" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -329,7 +329,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">#대형카페 #베이커리카페</div>' +
       '                <div class="ellipsis">아메리카노 5,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/373077516" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/373077516" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -354,7 +354,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 07:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">#베이커리카페</div>' +
       '                <div class="ellipsis">아메리카노 4,000원</div>' +
-      '                <div><a href="" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1578746387" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -375,7 +375,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">#베이커리</div>' +
       '                <div class="ellipsis">팥보리빵 1,200원, 쑥빵 1,000원, 보리빵 900원</div>' +
-      '                <div><a href="https://place.map.kakao.com/15751877" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/15751877" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -396,7 +396,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:30 ~ 18:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">#감귤체험</div>' +
       '                <div class="ellipsis">아메리카노 6,000원 / 귤라떼 8,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/665658434" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/665658434" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -417,7 +417,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:30 ~ 19:00 / 화,수 휴무</div>' +
       '                <div class="jibun ellipsis">#베이커리카페</div>' +
       '                <div class="ellipsis">드립커피 6,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1116114114" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1116114114" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -438,7 +438,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 18:00 / 일,월 휴무</div>' +
       '                <div class="jibun ellipsis">#로스팅전문</div>' +
       '                <div class="ellipsis">블랙커피 5,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/615740956" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/615740956" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -459,7 +459,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 18:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페 #로스팅, 핸드드립</div>' +
       '                <div class="ellipsis">아메리카노 6,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1491888881" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1491888881" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -484,7 +484,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#로스팅전문 #빈티지</div>' +
       '                <div class="ellipsis">아메리카노 5,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/734323672" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/734323672" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -505,7 +505,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페 #빈티지</div>' +
       '                <div class="ellipsis">아메리카노 5,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/898585862" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/898585862" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -526,7 +526,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#로스팅전문</div>' +
       '                <div class="ellipsis">드립커피 13,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/18325298" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/18325298" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -547,7 +547,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 22:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 6,000원, 아보카도커피 7,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1782977249" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1782977249" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -568,7 +568,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 19:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">#까눌레</div>' +
       '                <div class="ellipsis">아메리카노 5,500, 까눌레 3,500</div>' +
-      '                <div><a href="https://place.map.kakao.com/1307726606" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1307726606" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -593,7 +593,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 19:00/ 화 휴무</div>' +
       '                <div class="jibun ellipsis">#타르트</div>' +
       '                <div class="ellipsis">아메리카노 5,000원 에그타르트 3,100원</div>' +
-      '                <div><a href="https://place.map.kakao.com/2003360746" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2003360746" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -614,7 +614,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#베이커리</div>' +
       '                <div class="ellipsis">아메리카노 5,000원 </div>' +
-      '                <div><a href="https://place.map.kakao.com/10375136" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10375136" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -635,7 +635,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 7,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/231488419" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/231488419" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -660,7 +660,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 18:00</div>' +
       '                <div class="jibun ellipsis">#로스팅전문 #해드드립전문</div>' +
       '                <div class="ellipsis">아인슈페너 6,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/18815393" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/18815393" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -685,7 +685,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#로스팅 #핸드드립</div>' +
       '                <div class="ellipsis">아메리카노 4,500</div>' +
-      '                <div><a href="https://place.map.kakao.com/767876049" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/767876049" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -710,7 +710,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 2/29까지 휴무</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 7,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/979505096" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/979505096" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -731,7 +731,7 @@ var positions = [
       '                <div class="ellipsis">영업시간 : 09:00 ~ 19:00</div>' +
       '                <div class="jibun ellipsis">#산방산카페 #마운틴뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 7,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/217787831" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/217787831" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -753,7 +753,7 @@ var positions = [
       '                <div class="ellipsis">영업시간 : 10:00 ~ 18:30</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 6,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1688963481" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1688963481" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       // '                <div><button class="modalBtn" onclick="showModal()">저장</button></div>' + 
       '            </div>' +
       '        </div>' +
@@ -775,7 +775,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 20:30</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">아메리카노 6000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1666998566" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1666998566" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -796,7 +796,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">#족욕카페</div>' +
       '                <div class="ellipsis">힐링코스 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/27445744" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/27445744" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -821,7 +821,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 18:30 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">#로스팅전문</div>' +
       '                <div class="ellipsis">아메리카노 3,500원 와토알프스 5,500 / 우드라떼 5,500</div>' +
-      '                <div><a href="https://place.map.kakao.com/1028238972" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1028238972" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -842,7 +842,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 20:00 </div>' +
       '                <div class="jibun ellipsis">#감귤체험</div>' +
       '                <div class="ellipsis">한라봉스무디 9,500</div>' +
-      '                <div><a href="https://place.map.kakao.com/363468370" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/363468370" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -863,7 +863,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">#오션뷰카페</div>' +
       '                <div class="ellipsis">사일리커피 7,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/1148912647" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1148912647" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -930,4 +930,38 @@ function displayMarker(data) {
     });
 }
 
+//저장 리스트
+function savePlace() {
+  // 1. 모든 제목 요소를 가져옵니다.
+  const titles = document.querySelectorAll('.title');
+  // 2. 각 제목 요소에 대해 다음을 수행합니다.
+  for (const title of titles) {
+    // 2.1. 제목 키를 생성합니다.
+    const titleKey = Date.now();
+    // 2.2. 제목 텍스트를 가져옵니다.
+    const titleText = title.textContent;
+    // 2.3. 저장할 데이터를 객체로 변환합니다.
+    const data = {
+      // key: titleKey,
+      text: titleText
+    };
+    // 2.4. JSON 문자열로 변환합니다.
+    const jsonData = JSON.stringify(data);
+    // 2.5. setItem() 메서드를 사용하여 객체를 저장합니다.
+    localStorage.setItem(titleKey, jsonData);
+    // 2.6. blockquote 요소의 텍스트 콘텐츠를 설정합니다.
+    const newQuote = document.createElement('blockquote');
+    newQuote.textContent = titleText;
+    document.getElementById('quote').appendChild(newQuote);
+  }
+  // 3. (선택 사항) 저장 성공 메시지를 표시합니다.
+  // alert('저장되었습니다!');
+}
+
+// 저장리스트 삭제
+function deleteDiv() {
+  var deletebtn = document.getElementById('quote');
+  deletebtn.innerHTML = ' ';
+  localStorage.clear();
+}
 
