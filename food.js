@@ -18,7 +18,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 20:00 / 목, 설 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:30 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">갈치구이정식 11,000원 갈치구이+고등어조림+성게미역국</div>' +
-      '                <div><a href="https://place.map.kakao.com/839698275" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/839698275" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -40,7 +40,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 21:00 / 금 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 16:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">고등어구이정식 12,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/10949265" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10949265" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -62,7 +62,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 17:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">전복뚝배기 16,000원, 전복돌솥밥 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/836908144" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/836908144" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -84,7 +84,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 17:00/ 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">해장하라게라면 13,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1497268361" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1497268361" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -106,7 +106,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 16:00 / 월 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">돔베막국수, 온국수 8,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/792715062" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/792715062" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -128,7 +128,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 19:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">갈치조림 4인 70,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/8964063" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8964063" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -150,7 +150,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 07:30 ~ 15:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고기국수 8,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/249432149" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/249432149" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -174,7 +174,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 07:00 ~ 15:00 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">보말칼국수 10,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/249432149" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/249432149" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -196,7 +196,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 15:30</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">보말칼국수 10,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/500457527" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/500457527" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -218,7 +218,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:30 ~ 21:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">갈치조림 2인 40,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/17929669" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/17929669" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -240,7 +240,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 14:30 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">순살갈치구이 + 조림 4인 140,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/25851685" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/25851685" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -262,7 +262,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 22:00 / 월 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑오겹, 흑목살(200g) 20,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/26305070" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26305070" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -284,7 +284,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 06:00 ~ 16:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">내장탕 11,000원, 해장국 10,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/749140776" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/749140776" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -306,7 +306,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">흑돼지 오겹, 목살 200g 22,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/22300921" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/22300921" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -331,7 +331,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">광해모둠 소 105,000원 갈치조림+해물뚝배기+갈치구이</div>' +
-      '                <div><a href="https://place.map.kakao.com/41973236" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/41973236" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -353,7 +353,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:30</div>' +
       '                <div class="jibun ellipsis">브레이크 16:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">고등어묵은지찜 2인 36,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/24780480" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/24780480" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -374,7 +374,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 24:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 근고기 500g 60,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/2030021121" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2030021121" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -395,7 +395,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 세트 500g 59,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/932479755" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/932479755" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -416,7 +416,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">브레이크 15:30 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">통철판 해물라면 1인 26,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/879542502" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/879542502" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -437,7 +437,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">전복해물라면 12,000원, 전복뚝배기 17,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/380750588" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/380750588" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -458,7 +458,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 23:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 근고기 600g 57,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1580336980" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1580336980" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -479,7 +479,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 16:30 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">꽃밥정식 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/18311320" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/18311320" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -500,7 +500,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 17:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">몸국,고사리육개장,고기국수 8,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/27575902" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/27575902" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -514,19 +514,19 @@ var positions = [
       '            <div class="close" onclick="closeOverlay()"></div>' +
       '        </div>' +
       '        <div class="body">' +
-      '            <div class="img" style="background-image: url(); background-position: center; background-size: cover;">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.kakaocdn.net%2Fmystore%2F4490BAFBBDA34D45B489F304245FA792); background-position: center; background-size: cover;">' +
       // '                <img src="">' +
       '           </div>' +
       '            <div class="desc">' +
       '                <div class="ellipsis">영업시간: 11:30 ~ 22:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 오겹 / 목살 200g 22,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/11093386" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/11093386" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
       '</div>',
-    latlng: new kakao.maps.LatLng(33.330211165218024, 126.25488906568614)
+    latlng: new kakao.maps.LatLng(33.48192978421543, 126.3750818592647)
   },{
     title: '<div class="wrap">' +
       '    <div class="info">' +
@@ -542,7 +542,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">작산 프리미엄 흑삼겹 + 목살 600g 65,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1268752602" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1268752602" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -563,7 +563,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 21:00 / 토 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">막창국밥 11,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/424361916" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/424361916" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -584,7 +584,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 16:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지라면 10,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/1410738170" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1410738170" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -609,7 +609,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 16:00 ~ 23:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">돼지 생갈비 200g 20,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/8505828" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8505828" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -630,7 +630,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 17:00 ~ 22:30</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 목살 / 삼겹살 180g 22,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/599236130" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/599236130" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -651,7 +651,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 06:00 ~ 16:00 / 월 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">해장국 / 내장탕 11,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/2097782769" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2097782769" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -672,7 +672,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:30 ~ 20:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 14:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">고기국수 8,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/8827972" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8827972" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -693,7 +693,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 19:30 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고기국수 9,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/11170411" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/11170411" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -714,7 +714,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 21:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">갈치조림 + 고등어구이 1인 22,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1762863151" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1762863151" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -735,7 +735,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 15:00 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">보말 칼국수 / 보말국 11,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1527491418" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1527491418" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -756,7 +756,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 24:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">근고기 600g 66,000원 / 런치 4인 800g 93,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1266175207" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1266175207" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -777,7 +777,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:30</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">우럭조림+옥돔구이 24,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/232056222" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/232056222" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -798,7 +798,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 19:30 / 토 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고기국수 9,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/559359242" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/559359242" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -819,7 +819,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 06:00 ~ 15:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">해장국 11,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/21499653" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/21499653" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -840,7 +840,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">해물뚝배기 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1697090646" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1697090646" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -861,7 +861,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 04:00/ 월 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">몸국 / 몸국수 / 고기국수  9,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/7972099" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/7972099" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -882,7 +882,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 06:00 ~ 15:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">해장국 10,000원 / 내장탕 11,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/25430346" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/25430346" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -903,7 +903,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 15:00 ~ 22:30</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">오겹살 / 목살 200g 21,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/574242415" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/574242415" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -924,12 +924,33 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 19:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">회국수 12,000원 회추가 10,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/16525337" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/16525337" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
       '</div>',
     latlng: new kakao.maps.LatLng(33.55369541971542, 126.70988352533313)
+  },{
+    title: '<div class="wrap">' +
+      '    <div class="info">' +
+      '        <div class="title">' +
+      '            함덕골목 오라점/해장국 ★4.5(50)' +
+      '            <div class="close" onclick="closeOverlay()"></div>' +
+      '        </div>' +
+      '        <div class="body">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F977d292d27806070a17686ac8c2c4f01e1130655%3Foriginal); background-position: center; background-size: cover;">' +
+      // '                <img src="">' +
+      '           </div>' +
+      '            <div class="desc">' +
+      '                <div class="ellipsis">영업시간: 07:00 ~ 14:30 / 화 휴무</div>' +
+      '                <div class="jibun ellipsis">브레이크 x</div>' +
+      '                <div class="jibun ellipsis">해장국, 내장탕 11,000원</div>' +
+      '                <div><a href="https://place.map.kakao.com/726518959" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
+      '            </div>' +
+      '        </div>' +
+      '    </div>' +
+      '</div>',
+    latlng: new kakao.maps.LatLng(33.49425989974769, 126.515808351809)
   },
 
 
@@ -949,7 +970,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:30</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">런치 A 24,000원 우럭조림 + 옥돔구이</div>' +
-      '                <div><a href="https://place.map.kakao.com/28082185" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/28082185" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -970,7 +991,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">문어라면 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/26792593" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26792593" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -991,7 +1012,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">브레이크 16:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">낭뜰정식 1인 14,000원 쌈채 + 고등어 + 흑돼지제육 소 + 두부한모 소</div>' +
-      '                <div><a href="https://place.map.kakao.com/8874256" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/8874256" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1012,7 +1033,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:30 ~ 22:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">A세트 프렌치렉 200g + 양갈비 250g 61,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/471417273" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/471417273" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1033,7 +1054,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:30 ~ 20:00 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고등어정식 9,000원 / 갈치구이정식 16,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/23470769" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/23470769" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1054,7 +1075,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 23:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 목살, 오겹살 200g 20,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1975243507" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1975243507" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1075,7 +1096,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:30 ~ 18:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">쌈밥정식 17,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/19934545" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/19934545" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1096,7 +1117,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 19:00</div>' +
       '                <div class="jibun ellipsis">브레이크 14:20 ~ 15:00</div>' +
       '                <div class="jibun ellipsis">두부전골 10,000원, 고사리비빔밥 10,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/21509975" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/21509975" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1117,7 +1138,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 20:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">전복물회냉면, 전복죽, 전복설렁탕 16,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/2145368679" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2145368679" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1138,7 +1159,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:30 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">한라산세트 159,000원 통갈치조림 + 구이 + 고등어구이 + 전복뚝배기</div>' +
-      '                <div><a href="https://place.map.kakao.com/1946524083" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1946524083" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1159,12 +1180,33 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 17:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고사리갈치조림 16,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/180600985" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/180600985" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
       '</div>',
     latlng: new kakao.maps.LatLng(33.45283904286723, 126.70744751442615)
+  },{
+    title: '<div class="wrap">' +
+      '    <div class="info">' +
+      '        <div class="title">' +
+      '            함덕골목 본점/해장국 ★4.5(50)' +
+      '            <div class="close" onclick="closeOverlay()"></div>' +
+      '        </div>' +
+      '        <div class="body">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F977d292d27806070a17686ac8c2c4f01e1130655%3Foriginal); background-position: center; background-size: cover;">' +
+      // '                <img src="">' +
+      '           </div>' +
+      '            <div class="desc">' +
+      '                <div class="ellipsis">영업시간: 07:00 ~ 13:30 / 목 휴무</div>' +
+      '                <div class="jibun ellipsis">브레이크 x</div>' +
+      '                <div class="jibun ellipsis">해장국, 내장탕 11,000원</div>' +
+      '                <div><a href="https://place.map.kakao.com/1163513107" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
+      '            </div>' +
+      '        </div>' +
+      '    </div>' +
+      '</div>',
+    latlng: new kakao.maps.LatLng(33.53936483629345, 126.6411579631129)
   },
   
   // 구좌읍
@@ -1183,7 +1225,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 19:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 16:30</div>' +
       '                <div class="jibun ellipsis">돌문어볶음 소 30,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/26915572" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26915572" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1204,7 +1246,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">전복돌솥밥 15,000원, 회국수 12,000원, 물회 14,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/81111860" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/81111860" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1225,7 +1267,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 21:00 / 일 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">고등어회 /활어회 소 55,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/17357777" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/17357777" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1246,7 +1288,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 24:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">근고기 600g 72,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/865493189" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/865493189" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1267,7 +1309,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 16:20 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">갈치조림 1인 18,000원 구이 30,000원</div>' +
-      '                <div><a href=https://place.map.kakao.com/1942763932" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href=https://place.map.kakao.com/1942763932" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1288,7 +1330,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">전복가마솥밥 15,000원, 전복구이 25,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/18352760" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/18352760" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1309,7 +1351,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 11:00 ~ 15:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 불고기 쌈정식 1인 14,500원</div>' +
-      '                <div><a href="https://place.map.kakao.com/26575848" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26575848" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1330,7 +1372,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 18:00 / 월 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고기국수 9,000원 돔베고기 22,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/336053148" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/336053148" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1355,7 +1397,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 근고기 600g 63,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/18678487" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/18678487" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1376,7 +1418,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:30 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고등어회 55,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/382375401" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/382375401" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1397,7 +1439,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:30 ~ 21:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:30 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">보말국 정식 12,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/10471937" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10471937" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1418,7 +1460,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">정식 2인 이상 15,000원 흑돼지제육 + 해물된장찌개</div>' +
-      '                <div><a href="https://place.map.kakao.com/994541543" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/994541543" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1439,7 +1481,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">그리운 코스 2인 80,000원 고등어회 + 은갈치회 + 회국수 + 고등어구이 + 전복성게미역국</div>' +
-      '                <div><a href="https://place.map.kakao.com/18277817" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/18277817" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1460,7 +1502,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 20:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:30 ~ 17:30</div>' +
       '                <div class="jibun ellipsis">전복돌솥밥 / 전복뚝배기 15,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/10112205" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10112205" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1481,7 +1523,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis"흑오겹 + 흑목살 900g 96,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1454037117" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1454037117" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1502,7 +1544,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00 / 목 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">스페샬조림세트(4인) 195,000원 통갈치조림+통갈치구이</div>' +
-      '                <div><a href="https://place.map.kakao.com/2143392674" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2143392674" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1523,7 +1565,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 20:00 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">문어라면 2인 40,000원 문어볶음 2인 30,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/27268966" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/27268966" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1544,7 +1586,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 16:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">참돔 + 고등어 / 광어 + 고등어 45,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/126137610" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/126137610" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1569,7 +1611,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:30 ~ 16:00/ 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">고기국수 9,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1101068317" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1101068317" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1590,7 +1632,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 07:30 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">돼지국밥, 순대국밥 8,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1064657786" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1064657786" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1615,7 +1657,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:30 ~ 20:30 / 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">소한마리국밥 10,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/889033877" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/889033877" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1640,7 +1682,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 20:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">등심까스 11,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1890778114" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1890778114" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1661,7 +1703,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:30</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">런치세트 24,000원 우럭조림+옥돔구이</div>' +
-      '                <div><a href="https://place.map.kakao.com/1580890176" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1580890176" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1682,7 +1724,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 16:00</div>' +
       '                <div class="jibun ellipsis">통갈치조림 (4인) 120,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/17809788" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/17809788" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1703,7 +1745,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">브레이크 15:10 ~ 16:30</div>' +
       '                <div class="jibun ellipsis">코시롱 세트(4인) 95,000 제주 갈치조림+고등어구이(대)</div>' +
-      '                <div><a href="https://place.map.kakao.com/10627937" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/10627937" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1724,7 +1766,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:00 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 15:10 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">통갈치 구이 세트 (3~4인) 110,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/967549394" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/967549394" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1745,7 +1787,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 24:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">제주 화산암반 청정흑돼지200g 21,400</div>' +
-      '                <div><a href="https://place.map.kakao.com/26586223" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26586223" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1766,7 +1808,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 22:00/ 수 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">흑돼지 (300g) 32,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/2060352745" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2060352745" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1787,7 +1829,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 10:30 ~ 22:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 오겹살 (180g) 18,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/2028723819" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/2028723819" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1808,7 +1850,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 08:00 ~ 17:00 / 화 휴무</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">수두리보말칼국수 11,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/1148098112" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/1148098112" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1829,7 +1871,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 09:00 ~ 21:00</div>' +
       '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
       '                <div class="jibun ellipsis">통갈치한상(4인) 96,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/489037210" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/489037210" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1850,7 +1892,7 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 24:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 근고기 (600g) 64,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/26397051" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/26397051" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
@@ -1871,12 +1913,54 @@ var positions = [
       '                <div class="ellipsis">영업시간: 12:00 ~ 23:00</div>' +
       '                <div class="jibun ellipsis">브레이크 x</div>' +
       '                <div class="jibun ellipsis">흑돼지 한마리 모둠 95,000 목살 (300g)+오겹살 (300g)+가브리살 (200g)+항정살 (200g)</div>' +
-      '                <div><a href="https://place.map.kakao.com/20631993" target="_blank" class="link">상세보기</a></div>' +
+      '                <div><a href="https://place.map.kakao.com/20631993" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
       '            </div>' +
       '        </div>' +
       '    </div>' +
       '</div>',
     latlng: new kakao.maps.LatLng(33.23578528298969, 126.49355362558312)
+  },{
+    title: '<div class="wrap">' +
+      '    <div class="info">' +
+      '        <div class="title">' +
+      '            다다익고/고기 ★4.0(57)' +
+      '            <div class="close" onclick="closeOverlay()"></div>' +
+      '        </div>' +
+      '        <div class="body">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyMzExMTJfNjgg%2FMDAxNjk5NzQ3NzIxMTMw.lZPtYkLk2hGDf9Z-TzxHh5zGtGKhy-HuqGtsiUdTb9gg.r-TsbSUu2EmFpehPc24m4aa0WqMVLWLcs884KrR21nMg.JPEG.000mgmg%2F1699746512311.jpg%3Ftype%3Dw966); background-position: center; background-size: cover;">' +
+      // '                <img src="">' +
+      '           </div>' +
+      '            <div class="desc">' +
+      '                <div class="ellipsis">영업시간: 12:00 ~ 22:00</div>' +
+      '                <div class="jibun ellipsis">브레이크 15:30 ~ 17:00</div>' +
+      '                <div class="jibun ellipsis">흑돼지목살, 오겹살 (100g) 7840원</div>' +
+      '                <div><a href="https://place.map.kakao.com/1227447555" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
+      '            </div>' +
+      '        </div>' +
+      '    </div>' +
+      '</div>',
+    latlng: new kakao.maps.LatLng(33.260352934659174, 126.40606169117929)
+  },{
+    title: '<div class="wrap">' +
+      '    <div class="info">' +
+      '        <div class="title">' +
+      '            다다익고 신서귀포점/고기 ★4.0(57)' +
+      '            <div class="close" onclick="closeOverlay()"></div>' +
+      '        </div>' +
+      '        <div class="body">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyMzExMTJfNjgg%2FMDAxNjk5NzQ3NzIxMTMw.lZPtYkLk2hGDf9Z-TzxHh5zGtGKhy-HuqGtsiUdTb9gg.r-TsbSUu2EmFpehPc24m4aa0WqMVLWLcs884KrR21nMg.JPEG.000mgmg%2F1699746512311.jpg%3Ftype%3Dw966); background-position: center; background-size: cover;">' +
+      // '                <img src="">' +
+      '           </div>' +
+      '            <div class="desc">' +
+      '                <div class="ellipsis">영업시간: 11:30 ~ 22:00</div>' +
+      '                <div class="jibun ellipsis">브레이크 15:30 ~ 17:00</div>' +
+      '                <div class="jibun ellipsis">흑돼지목살, 오겹살 (100g) 7840원</div>' +
+      '                <div><a href="https://place.map.kakao.com/1480843059" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
+      '            </div>' +
+      '        </div>' +
+      '    </div>' +
+      '</div>',
+    latlng: new kakao.maps.LatLng(33.25469079369935, 126.50774674560006)
   },
 
 
@@ -1896,7 +1980,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:00 ~ 21:00 / 목 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">은갈치조림 2인 50,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/11996067" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/11996067" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span>/div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -1917,7 +2001,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:00 ~ 16:00 / 월 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">전복칼국수 11,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/1612962916" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/1612962916" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -1938,7 +2022,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 08:30 ~ 20:30</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">모둠생선구이 1인 9,900원</div>' +
-    '                <div><a href="https://place.map.kakao.com/27575771" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/27575771" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -1959,7 +2043,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:30 ~ 20:30 / 수 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 14:00 ~ 17:30</div>' +
     '                <div class="jibun ellipsis">정식 1인 23,000원 목살100g 성게미역국 옥돔튀김 딱새우장</div>' +
-    '                <div><a href="https://place.map.kakao.com/20125337" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/20125337" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -1980,7 +2064,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:30 ~ 18:00 / 월 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 15:00 ~ 16:00</div>' +
     '                <div class="jibun ellipsis">제주메밀 비비작작면 14,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/1710030150" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/1710030150" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2001,7 +2085,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:00 ~ 21:00 / 목 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">초가집 밥상 1인 27,000원 전복해물전골, 전복구이, 전복회, 전복내장죽, 딱새우장, 고등어구이</div>' +
-    '                <div><a href="https://place.map.kakao.com/12974776" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/12974776" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2022,7 +2106,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:30 ~ 22:00</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">한라산세트 3~4인 19만원 해물통갈치조림+구이+갈치회+갈치회무침 / 갈치튀김/ 전복버터구이 / 옥돔구이 / 콘치즈 / 딱새우장 / 성게미역국</div>' +
-    '                <div><a href="https://place.map.kakao.com/10447497" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/10447497" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2043,7 +2127,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 09:30 ~ 19:00 / 수 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">고기국수, 몸국 9,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/1519784712" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/1519784712" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2064,7 +2148,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:00 ~ 21:30 / 월 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">흑돼지삼겹살 200g 20,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/256756454" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/256756454" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2085,7 +2169,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:00 ~ 21:30</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">흑돼지 오겹살 / 목살 200g 20,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/18494916" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/18494916" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2106,7 +2190,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 09:00 ~ 17:30</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">해물라면 12,000원 / 전복치즈밥 15,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/2085143112" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/2085143112" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2127,7 +2211,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 08:00 ~ 15:00 / 수 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">제주보말칼국수 13,000원 / 제주보말손수제비 14,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/1206019377" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/1206019377" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2148,7 +2232,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:00 ~ 22:00 / 수 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">흑돼지오겹살 / 목살 180g 22,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/26947583" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/26947583" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2169,7 +2253,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 09:00 ~ 20:00</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">정식 1인 15,000원 모듬생선구이 + 제육볶음 + 전</div>' +
-    '                <div><a href="https://place.map.kakao.com/1212473779" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/1212473779" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2190,7 +2274,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:00 ~ 20:00 / 목 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 16:00 ~ 17:00</div>' +
     '                <div class="jibun ellipsis">튀김돔베정식 10,000원 / 돔베 한 접시 21,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/623072470" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/623072470" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2215,7 +2299,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:30 ~ 22:00 / 수 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">고등어회 & 탕 (대) 85,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/9006988" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/9006988" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2236,7 +2320,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 10:00 ~ 21:30 / 목 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">갈치조림 + 방어회 소 60,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/9025009" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/9025009" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2257,7 +2341,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 09:00 ~ 21:00</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">짜장면 7,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/16841033" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/16841033" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2278,7 +2362,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 12:00 ~ 22:00 / 목 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
     '                <div class="jibun ellipsis">흑돼지 600g 64,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/780607372" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/780607372" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2299,7 +2383,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:30 ~ 22:00</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">흑돼지 660g 66,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/26922347" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/26922347" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2320,7 +2404,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 09:00 ~ 21:00 / 월 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 x</div>' +
     '                <div class="jibun ellipsis">고등어구이 10,000원 갈치조림 30,000원</div>' +
-    '                <div><a href="https://place.map.kakao.com/11892463" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/11892463" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2341,7 +2425,7 @@ var positions = [
     '                <div class="ellipsis">영업시간: 11:00 ~ 19:00 / 일 휴무</div>' +
     '                <div class="jibun ellipsis">브레이크 15:00 ~ 17:00</div>' +
     '                <div class="jibun ellipsis">돌문어돌솥비빔밥과몸된장국 / 전복돌솥비빔밥과몸된장국 15,000</div>' +
-    '                <div><a href="https://place.map.kakao.com/150574706" target="_blank" class="link">상세보기</a></div>' +
+    '                <div><a href="https://place.map.kakao.com/150574706" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
     '            </div>' +
     '        </div>' +
     '    </div>' +
@@ -2406,4 +2490,39 @@ function displayMarker(data) {
       overlay.setMap(null);
       isOverlayOpen = false;
     });
+}
+
+//저장 리스트
+function savePlace() {
+  // 1. 모든 제목 요소를 가져옵니다.
+  const titles = document.querySelectorAll('.title');
+  // 2. 각 제목 요소에 대해 다음을 수행합니다.
+  for (const title of titles) {
+    // 2.1. 제목 키를 생성합니다.
+    const titleKey = Date.now();
+    // 2.2. 제목 텍스트를 가져옵니다.
+    const titleText = title.textContent;
+    // 2.3. 저장할 데이터를 객체로 변환합니다.
+    const data = {
+      // key: titleKey,
+      text: titleText
+    };
+    // 2.4. JSON 문자열로 변환합니다.
+    const jsonData = JSON.stringify(data);
+    // 2.5. setItem() 메서드를 사용하여 객체를 저장합니다.
+    localStorage.setItem(titleKey, jsonData);
+    // 2.6. blockquote 요소의 텍스트 콘텐츠를 설정합니다.
+    const newQuote = document.createElement('blockquote');
+    newQuote.textContent = titleText;
+    document.getElementById('quote').appendChild(newQuote);
+  }
+  // 3. (선택 사항) 저장 성공 메시지를 표시합니다.
+  // alert('저장되었습니다!');
+}
+
+// 저장리스트 삭제
+function deleteDiv() {
+  var deletebtn = document.getElementById('quote');
+  deletebtn.innerHTML = ' ';
+  localStorage.clear();
 }
