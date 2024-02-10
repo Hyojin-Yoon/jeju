@@ -830,27 +830,6 @@ var positions = [
     title: '<div class="wrap">' +
       '    <div class="info">' +
       '        <div class="title">' +
-      '            살아있는해물뚝배기 어마장장/전복 ★4.3(200)' +
-      '            <div class="close" onclick="closeOverlay()"></div>' +
-      '        </div>' +
-      '        <div class="body">' +
-      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fplace%2F0BB6A755AD1340AB9399B0EAF556C94C); background-position: center; background-size: cover;">' +
-      // '                <img src="">' +
-      '           </div>' +
-      '            <div class="desc">' +
-      '                <div class="ellipsis">영업시간: 09:30 ~ 20:00</div>' +
-      '                <div class="jibun ellipsis">브레이크 x</div>' +
-      '                <div class="jibun ellipsis">해물뚝배기 15,000원</div>' +
-      '                <div><a href="https://place.map.kakao.com/1697090646" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
-      '            </div>' +
-      '        </div>' +
-      '    </div>' +
-      '</div>',
-    latlng: new kakao.maps.LatLng(33.51113532857051, 126.52982451858611)
-  },{
-    title: '<div class="wrap">' +
-      '    <div class="info">' +
-      '        <div class="title">' +
       '            신설오름/한식 ★4.1(222)' +
       '            <div class="close" onclick="closeOverlay()"></div>' +
       '        </div>' +
