@@ -157,6 +157,28 @@ var positions = [
       '</div>',
     latlng: new kakao.maps.LatLng(33.330211165218024, 126.25488906568614)
   },
+  {
+    title: '<div class="wrap">' +
+      '    <div class="info">' +
+      '        <div class="title">' +
+      '            퐁당라면/한식 ★4.3(28)' +
+      '            <div class="close" onclick="closeOverlay()"></div>' +
+      '        </div>' +
+      '        <div class="body">' +
+      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=https%3A%2F%2Fpostfiles.pstatic.net%2FMjAyNDAyMDhfMjg4%2FMDAxNzA3NDA0MTU2NTIz.UA1Oargfm9cDK_2itMaUeVjvjMANVy8nM8ISiwG2GC8g.5yoIbTSEwUTrkNwpRhtsNe1Zd6wjk5yLflNWcAtdw18g.JPEG.ase-1018%2Foutput_2954601644.jpg%3Ftype%3Dw773); background-position: center; background-size: cover;">' +
+      // '                <img src="">' +
+      '           </div>' +
+      '            <div class="desc">' +
+      '                <div class="ellipsis">영업시간: 10:30 ~ 17:00 / 수 휴무</div>' +
+      '                <div class="jibun ellipsis">브레이크 x</div>' +
+      '                <div class="jibun ellipsis">문어가퐁당 15,000원</div>' +
+      '                <div><a href="https://place.map.kakao.com/1177758484" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
+      '            </div>' +
+      '        </div>' +
+      '    </div>' +
+      '</div>',
+    latlng: new kakao.maps.LatLng(33.36494264137942, 126.19979835025897)
+  },
 
   // 한림읍
   {
@@ -569,27 +591,6 @@ var positions = [
       '    </div>' +
       '</div>',
     latlng: new kakao.maps.LatLng(33.480657486835014, 126.40368846419528)
-  },{
-    title: '<div class="wrap">' +
-      '    <div class="info">' +
-      '        <div class="title">' +
-      '            제주와함께라면/라면 ★4.7(42)' +
-      '            <div class="close" onclick="closeOverlay()"></div>' +
-      '        </div>' +
-      '        <div class="body">' +
-      '            <div class="img" style="background-image: url(https://img1.kakaocdn.net/cthumb/local/R0x420.q50/?fname=http%3A%2F%2Ft1.daumcdn.net%2Flocal%2FkakaomapPhoto%2Freview%2F92c409dc527a74eb86087ff485a335a591927d6f%3Foriginal); background-position: center; background-size: cover;">' +
-      // '                <img src="">' +
-      '           </div>' +
-      '            <div class="desc">' +
-      '                <div class="ellipsis">영업시간: 09:00 ~ 16:00</div>' +
-      '                <div class="jibun ellipsis">브레이크 x</div>' +
-      '                <div class="jibun ellipsis">흑돼지라면 10,000</div>' +
-      '                <div><a href="https://place.map.kakao.com/1410738170" target="_blank" class="link">상세보기</a><span class="saveBtn" onClick="savePlace()">저장</span></div>' +
-      '            </div>' +
-      '        </div>' +
-      '    </div>' +
-      '</div>',
-    latlng: new kakao.maps.LatLng(33.468698449088976,  126.34017995757377)
   },
 
   
