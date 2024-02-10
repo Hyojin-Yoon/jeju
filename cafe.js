@@ -309,7 +309,7 @@ var positions = [
       '        </div>' +
       '    </div>' +
       '</div>',
-    latlng: new kakao.maps.LatLng(33.47992749887798, 126.37269968818184)
+    latlng: new kakao.maps.LatLng(33.46708971770138, 126.33649163734628)
   },
 
 
