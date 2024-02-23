@@ -25,7 +25,7 @@ var positions = [
     title: '<div class="wrap">' +
       '    <div class="info">' +
       '        <div class="title">' +
-      '            원앤온리' +
+      '            애월W스테이' +
       '            <div class="close" onclick="closeOverlay()" title="닫기"></div>' +
       '        </div>' +
       '        <div class="body">' +
